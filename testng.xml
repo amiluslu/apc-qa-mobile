@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="Airbnb-Android-Test-Suite">
+
+    <test name="AirbnbFavouriteTest">
+        <parameter name="udid" value="emulator-5554"/>
+        <parameter name="platformVersion" value="11"/>
+        <classes>
+            <class name="tests.AirbnbFavouriteTest"/>
+        </classes>
+    </test>
+
+</suite>
